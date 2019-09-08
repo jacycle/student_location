@@ -1,0 +1,92 @@
+/* pages/map/map.wxss */
+page{
+  height: 100%;
+}
+
+.section_time
+{
+  flex-direction: row;
+  display: flex;
+  width:100%;
+  min-height: 50rpx;
+  line-height: 50rpx;
+}
+
+.section
+{
+  width:50%;
+  flex-direction: row;
+  display: flex;
+  border:2rpx;
+  border-style:solid;
+  border-radius: 20rpx;
+  min-height: 15rpx;
+}
+
+.section__title
+{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.picker_date
+{
+  flex: 6;
+}
+
+.picker_time
+{
+  flex: 4;
+}
+
+.picker{
+  text-align: center;
+}
+
+.mileage_img {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.track_img
+{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.controls_left
+{
+  position: fixed;
+  top:85%;
+  left:1%;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.controls_left2
+{
+  position: fixed;
+  top:92%;
+  left:1%;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.controls_right
+{
+  position: fixed;
+  top:85%;
+  right:1%;
+  background-color: white;
+  border-radius: 30%;
+}
+.controls_right2
+{
+  position: fixed;
+  top:92%;
+  right:1%;
+  background-color: white;
+  border-radius: 30%;
+}

@@ -1,0 +1,32 @@
+/* pages/about/about.wxss */
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.head
+{
+  font-weight: bold;
+  padding: 10rpx;
+}
+
+.line
+{
+  width: 50%;
+  height: 1px;
+  border-top: solid #000000 1px;
+  padding: 10rpx;
+}
+
+.content
+{
+  padding: 20rpx;
+}

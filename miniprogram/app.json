@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/settings/settings",
+    "pages/about/about"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#1296db",
+ 
+    "list": [
+        {
+          "pagePath": "pages/map/map",
+          "text": "地图",
+          "iconPath": "/resources/map.png",
+          "selectedIconPath": "/resources/map_selected.png"
+        },
+        {
+          "pagePath": "pages/about/about",
+          "text": "关于",
+          "iconPath": "/resources/about_us.png",
+          "selectedIconPath": "/resources/about_us_selected.png"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "/resources/about_us.png",
+          "selectedIconPath": "/resources/about_us_selected.png"
+        }
+      ]
+  }
+}

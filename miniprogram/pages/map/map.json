@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "地图",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "dark",
+  "disableScroll": true,
+  "enablePullDownRefresh": false
+}

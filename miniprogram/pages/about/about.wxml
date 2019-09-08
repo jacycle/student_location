@@ -1,0 +1,14 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+    <view class="head">
+    关于地图
+    </view>
+    <view class="content">  
+      <text>
+      左上角的日期、时间选择器，为地图轨迹的起始时间。
+      右上角的日期、时间选择器，为地图轨迹的结束时间。
+      点击右下角脚的轨迹图标，将会加载所选时间段的轨迹。
+      点击左下脚的里程图标，将会显示所画轨迹的公里数已经当前时间。
+      </text>
+    </view>
+</view>

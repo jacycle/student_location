@@ -1,0 +1,60 @@
+<!--pages/map/map.wxml-->
+<view class="section_time">
+  <view class="section">
+    <view class="picker_date">
+      <picker class="picker" mode="date" value="{{start_date}}" start="2019-09-01" end="2029-09-01" bindchange="bindDateStartChange">
+        <view>
+          {{start_date}}
+        </view>
+      </picker>
+    </view>
+    <view class="picker_time">
+      <picker class="picker" mode="time" value="{{start_time}}" start="00:00" end="23:59" bindchange="bindTimeStartChange">
+        <view>
+          {{start_time}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="section">
+    <view class="picker_date">
+      <picker class="picker" mode="date" value="{{stop_date}}" start="2019-09-01" end="2029-09-01" bindchange="bindDateStopChange">
+        <view>
+          {{stop_date}}
+        </view>
+      </picker>
+    </view>
+    <view class="picker_time">
+      <picker class="picker" mode="time" value="{{stop_time}}" start="00:00" end="23:59" bindchange="bindTimeStopChange">
+        <view>
+          {{stop_time}}
+        </view>
+      </picker>
+    </view>
+  </view>
+</view>
+
+<view class="" hover-class="none" hover-stop-propagation="false" style="width: 100%; height: 100%;">
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{}}" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 100%;">
+  <cover-view class="controls_left">
+    <cover-view class="img" bindtap="mileagetap">
+      <cover-image class="mileage_img" src="/resources/mileage.png" />
+    </cover-view>
+  </cover-view>
+  <cover-view class="controls_right">
+    <cover-view class="img" bindtap="controltap">
+      <cover-image class="track_img" src="/resources/others.png" />
+    </cover-view>
+  </cover-view>
+  <cover-view class="controls_right2">
+    <cover-view class="img" bindtap="settingtap">
+      <cover-image class="track_img" src="/resources/setting.png" />
+    </cover-view>
+  </cover-view>
+  <cover-view class="controls_left2">
+    <cover-view class="img" bindtap="deletetap">
+      <cover-image class="track_img" src="/resources/delete.png" />
+    </cover-view>
+  </cover-view>
+</map>
+</view>
